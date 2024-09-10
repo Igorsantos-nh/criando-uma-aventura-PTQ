@@ -1,0 +1,51 @@
+body {
+    background-image: url(cenario_passo0.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position:  center;
+    background-color: #977a63 ;
+    color: rgb(49, 36, 36);
+    font-family: "MedievalSharp", cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 150px;
+    height: 700px;
+    margin: 0px; 
+
+}
+
+button {
+    
+    background-color: rgb(36, 55, 110);
+    color: rgb(236, 224, 224);
+    font-family: "MedievalSharp", cursive;
+}
+
+.passo {
+    display: none;
+}
+
+.passo.ativo {
+    display:block;
+}
+
+.credit{
+    padding: 0px;
+    height: 110px;
+    margin: 0px; 
+    font: size 1.3em; 
+    color: rgb(17, 15, 15);
+    padding: 1em;
+    
+}
+ 
+.credit a {
+color: rgb(45, 80, 54);
+transition: 1s;
+}
+
+.credit a:hover{
+    color: white;
+    text-shadow:0 0 8px white ;
+}
